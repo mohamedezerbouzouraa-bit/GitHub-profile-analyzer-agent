@@ -5,12 +5,10 @@ from core.utils import extract_username, safe_repo_sort
 
 
 class GitHubProfileAgent:
-
     def __init__(self):
         self.tool = GitHubTool()
 
     async def run(self, user_id, session_id, message):
-
         profile_url = message.parts[0].text
         username = extract_username(profile_url)
 
