@@ -53,7 +53,6 @@ Return:
 
 Also suggest 5 realistic GitHub project ideas this developer could build next.
 """
-
         result = generate(prompt)
 
         return Content(
