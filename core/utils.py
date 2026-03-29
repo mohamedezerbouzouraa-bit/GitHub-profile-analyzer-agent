@@ -10,5 +10,4 @@ def safe_repo_sort(repos):
     return sorted(
         [r for r in repos if isinstance(r, dict)],
         key=lambda x: x.get("stargazers_count", 0),
-        reverse=True
-    )
+        reverse=True)
