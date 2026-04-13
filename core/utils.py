@@ -1,5 +1,6 @@
 from urllib.parse import urlparse
 
+
 def extract_username(url: str):
     parts = urlparse(url).path.strip("/").split("/")
     return parts[0] if parts[0] else None
