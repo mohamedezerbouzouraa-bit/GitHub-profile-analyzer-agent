@@ -3,7 +3,6 @@ from tools.github_tool import GitHubTool
 from llm.gemini_client import generate
 from core.utils import extract_username, safe_repo_sort
 
-
 class GitHubProfileAgent:
     def __init__(self):
         self.tool = GitHubTool()
