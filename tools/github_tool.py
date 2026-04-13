@@ -1,7 +1,6 @@
 import aiohttp
 from config.settings import GITHUB_TOKEN
 
-
 class GitHubTool:
     BASE = "https://api.github.com"
 
